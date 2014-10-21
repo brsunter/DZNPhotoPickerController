@@ -31,7 +31,7 @@ NSURL *baseURLForService(DZNPhotoPickerControllerService service)
 {
     switch (service) {
         case DZNPhotoPickerControllerService500px:              return [NSURL URLWithString:@"https://api.500px.com/v1"];
-        case DZNPhotoPickerControllerServiceFlickr:             return [NSURL URLWithString:@"http://api.flickr.com/services/rest/"];
+        case DZNPhotoPickerControllerServiceFlickr:             return [NSURL URLWithString:@"https://api.flickr.com/services/rest/"];
         case DZNPhotoPickerControllerServiceInstagram:          return [NSURL URLWithString:@"https://api.instagram.com/v1/"];
         case DZNPhotoPickerControllerServiceGoogleImages:       return [NSURL URLWithString:@"https://www.googleapis.com/customsearch/v1/"];
         case DZNPhotoPickerControllerServiceYahooImages:        return [NSURL URLWithString:@"http://yboss.yahooapis.com/ysearch/"];
